@@ -56,7 +56,7 @@ Table 1: The latest builds are available via a MyGet feed
 | NuGet V2 (Visual Studio 2012+) | https://dotnet.myget.org/F/open-xml-sdk/api/v2 |
 
 1.	Specify the package source via a configuration option. For more info, see https://docs.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior. 
-Note that usually a NuGet.config file is placed in the directory and the config options are added there to ensure the sources are persisted in the version control.
+Note that usually a NuGet.config file is placed in the directory and the configuration options are added there to ensure the sources are persisted in the version control.
 
 2.	Install the package. The **Install-Package** command considers the package source either via configuration or argument. (If you have trouble installing the package, try restarting Visual Studio. Package sources could be cached and changes you've made to any NuGet.config files may not be detected.)
 
