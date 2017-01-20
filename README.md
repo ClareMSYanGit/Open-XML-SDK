@@ -60,17 +60,18 @@ Note that usually a NuGet.config file is placed in the directory and the config 
 
 2.	Install the package. The **Install-Package** command should consider the package source either via configuration or argument. (If you have trouble installing the package, try restarting Visual Studio. Package sources could be cached and changes you've made to any NuGet.config files may not be detected.)
 
-'''
+```
 
 PM> Install-Package DocumentFormat.OpenXml 
 
-'''
+```
 
-'''
+```
 
 PM> Install-Package DocumentFormat.OpenXml -Source https://dotnet.myget.org/F/open-xml-sdk/api/v3/index.json 
 
-'''
+```
+
 **Note**: This example is for Visual Studio 2015 and later.
 
 
