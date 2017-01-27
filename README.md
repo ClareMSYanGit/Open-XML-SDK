@@ -68,7 +68,7 @@ The **Install-Package** command considers the package source either via configur
 	PM> Install-Package DocumentFormat.OpenXml -Version <version retrieved from the web> -Source https://dotnet.myget.org/F/open-xml-sdk/api/v3/index.json 
 	```
 
-	**Note**:  If you have trouble installing the package, try restarting Visual Studio. Package sources could be cached, and changes you've made to any NuGet.config files may not be detected.
+**Note**:  If you have trouble installing the package, try restarting Visual Studio. Package sources could be cached, and changes you've made to any NuGet.config files may not be detected.
 	
 	
 News
